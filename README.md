@@ -1,1 +1,6 @@
 <h3> React - Lidando com arquivos estáticos (Alura) </h3>
+
+
+O Sass é uma variação do CSS, com funcionalidades adicionais, que agiliza a criação de estilos e deve ser compilada para CSS. O Sass oferece algumas ferramentas que facilitam a escrita, como aninhamento. Entretanto, o navegador interpreta apenas CSS e, por isso, o arquivo Sass, que é escrito em desenvolvimento, é compilado para CSS puro.
+O typescript-plugin-css-modules oferece tipagem para os estilos e facilita o uso dos estilos como módulos em componentes pois possibilita o uso do autocomplete. A biblioteca consegue entender o módulo CSS como um módulo em TypeScript e, junto aos editores de código como o VSCode, é capaz de oferecer sugestões sobre as propriedades disponíveis.
+O Sass é utilizado pelos componentes via CSS Modules. O CSS Modules e o TypeScript usados em componentes são convertidos em JavaScript para a aplicação rodar nos navegadores, e o Sass é convertido para CSS. Todas essas bibliotecas trabalham juntas, fazendo algum tipo de conversão para que o código escrito seja compreendido pelo navegador. Enquanto o Sass facilita a escrita de estilos, o CSS Modules facilita a aplicação desses estilos e o TypeScript ajuda na experiência de desenvolvimento dos componentes.
