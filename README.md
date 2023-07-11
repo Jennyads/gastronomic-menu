@@ -1,1 +1,1 @@
-chat<h3> React - Lidando com arquivos estáticos (Alura) </h3>
+<h3> React - Lidando com arquivos estáticos (Alura) </h3>
