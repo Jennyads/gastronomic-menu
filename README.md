@@ -15,3 +15,8 @@ Outra forma: quando não quer que o logo venha de uma imagem, queremos que o log
 Na prática, basta tirar o img, e ao invés de ser uma tag img, eu vou colocar uma tag <Logo />, literalmente, como se fosse um componente.
 
 Configuração do tsconfig.json para deixar padrão a rota: dentro de “compiler options”, só colocar uma opção chamada baseUrl, e essa é a URL padrão que vamos querer importar alguma coisa. E queremos que seja padrão de SRC, normalmente não saímos de lá. "baseUrl": "src"
+
+* Biblioteca classNames:
+  Adição condicional de classes de forma facilitada. A adição condicional de classes pode ser facilmente feita por você mesmo com operadores ternários, porém é possível que a parte do código responsável pela estilização contenha mais lógica do que a estilização em si. O classnames fornece uma maneira simples de realizar esse processo através de objetos JavaScript.
+
+  Formatação automática. Além de lidar com a lógica de adição de classes CSS, também precisamos nos preocupar em adicionar um espaço entre cada condição. A utilização do classnames não é mais necessária, pois ele realiza essa etapa por você.
